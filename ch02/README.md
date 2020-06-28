@@ -431,7 +431,7 @@ Because the type `void*` is a special pointer type that can hold the address of 
 >
 > ```cpp
 > i = ic;     // legal.
-> p1 = p3;    // illegal. p3 is a pointer to const int.
+> p1 = p3;    // illegal. p3 is a pointer to const int.   (my compiler do this legal!!!)
 > p1 = &ic;   // illegal. ic is a const int.
 > p3 = &ic;   // illegal. p3 is a const pointer.
 > p2 = p1;    // illegal. p2 is a const pointer.
